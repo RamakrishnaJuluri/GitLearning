@@ -1,8 +1,8 @@
 package Patterns;
 
-public class Pattern3 
+public class Pattern4 
 {
-    public static void pattern3(int n)
+    public static void pattern4(int n)
     {
         for(int i=1;i<=n;i++)
         {
@@ -10,14 +10,14 @@ public class Pattern3
 
             for(int j=1;j<=i;j++)
             {
-                System.out.print(i+" ");
+                System.out.print(j+" ");
 
             }
-
         }
 
     }
     public static void main(String[] args) {
-        pattern3(5);
+        pattern4(5);
     }
+    
 }

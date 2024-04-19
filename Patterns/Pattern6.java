@@ -1,23 +1,21 @@
 package Patterns;
 
-public class Pattern3 
+public class Pattern6 
 {
-    public static void pattern3(int n)
+    public static void pattern6(int n)
     {
         for(int i=1;i<=n;i++)
         {
             System.out.println();
 
-            for(int j=1;j<=i;j++)
+            for(int j=1;j<=n-i+1;j++)
             {
-                System.out.print(i+" ");
-
+                System.out.print(j+" ");
             }
-
         }
 
-    }
+    }  
     public static void main(String[] args) {
-        pattern3(5);
-    }
+        pattern6(5);
+    }  
 }
