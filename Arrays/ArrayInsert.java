@@ -6,6 +6,7 @@ public class ArrayInsert
     public static void main (String args[])
     {
     int arr[] = {1,2,3,4,5,6,7,8,9};
+    System.out.println("the length of the input array "+ arr.length);
     int position = 4;
     int value_tobe_inserted = 10;
     int arr1[] = new int[arr.length+1];
