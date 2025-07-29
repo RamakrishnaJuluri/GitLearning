@@ -1,5 +1,5 @@
 package Arrays.ArrayReverse;
-import java.util.Stack;
+import java.util.*;
 
 public class ArrayReverse_3 {
  public static void main(String[] args) 
@@ -17,10 +17,7 @@ public class ArrayReverse_3 {
         arr[i] = stack.pop();
     }
 
-    for( int i : arr)
-    {
-        System.out.print(i + " ");
-    }
+    System.out.println(Arrays.toString(arr));
  }
 
 }

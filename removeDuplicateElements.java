@@ -8,8 +8,13 @@ public class removeDuplicateElements
         HashSet<Integer> set = new HashSet<>();
         for(int i =0; i<arr.length; i++)
         {
-            set.add(arr[i]);
+            if(!set.contains(arr[i]))
+            {
+                set.add(arr[i]);
+            }
         }
+
+        System.out.println(set);
 
         
     }
